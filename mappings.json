@@ -24,6 +24,23 @@
 
             {
                 "from": {
+                    "key_code": "caps_lock"
+                },
+                "to": [{
+                    "key_code": "right_command"
+                }],
+                "to_if_held_down": [{
+                    "key_code": "right_command"
+                }],
+                "to_if_alone": [{
+                    "key_code": "return_or_enter"
+                }],
+
+                "type": "basic"
+            },
+
+            {
+                "from": {
                     "key_code": "grave_accent_and_tilde",
                     "modifiers": {
                         "mandatory": [
@@ -523,23 +540,6 @@
                 "to": [{
                     "key_code": "right_arrow"
                 }],
-                "type": "basic"
-            },
-
-            {
-                "from": {
-                    "key_code": "caps_lock"
-                },
-                "to": [{
-                    "key_code": "right_command"
-                }],
-                "to_if_held_down": [{
-                    "key_code": "right_command"
-                }],
-                "to_if_alone": [{
-                    "key_code": "return_or_enter"
-                }],
-
                 "type": "basic"
             }
         ]
