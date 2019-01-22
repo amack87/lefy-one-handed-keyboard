@@ -459,7 +459,10 @@
                     "key_code": "w",
                     "modifiers": {
                         "mandatory": [
-                            "return_or_enter"
+                            "right_control",  "left_control"
+                        ],
+                        "optional": [
+                            "any"
                         ]
                     }
                 },
@@ -474,7 +477,10 @@
                     "key_code": "a",
                     "modifiers": {
                         "mandatory": [
-                            "return_or_enter"
+                            "right_control",  "left_control"
+                        ],
+                        "optional": [
+                            "any"
                         ]
                     }
                 },
@@ -489,7 +495,10 @@
                     "key_code": "s",
                     "modifiers": {
                         "mandatory": [
-                            "return_or_enter"
+                            "right_control",  "left_control"
+                        ],
+                        "optional": [
+                            "any"
                         ]
                     }
                 },
@@ -504,7 +513,10 @@
                     "key_code": "d",
                     "modifiers": {
                         "mandatory": [
-                            "return_or_enter"
+                            "right_control",  "left_control"
+                        ],
+                        "optional": [
+                            "any"
                         ]
                     }
                 },
