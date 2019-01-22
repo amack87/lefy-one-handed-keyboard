@@ -530,10 +530,10 @@
                 "from": {
                     "key_code": "caps_lock"
                 },
-                "to": [{
+                "to_if_alone": [{
                     "key_code": "return_or_enter"
                 }],
-                "to_if_held_down": [{
+                "to": [{
                     "key_code": "right_command"
                 }],
 
