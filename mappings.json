@@ -29,9 +29,6 @@
                 "to": [{
                     "key_code": "right_command"
                 }],
-                "to_if_held_down": [{
-                    "key_code": "right_command"
-                }],
                 "to_if_alone": [{
                     "key_code": "return_or_enter"
                 }],
