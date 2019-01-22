@@ -459,7 +459,7 @@
                     "key_code": "w",
                     "modifiers": {
                         "mandatory": [
-                            "right_control",  "left_control"
+                            "right_control",  "right_command"
                         ],
                         "optional": [
                             "any"
@@ -477,7 +477,7 @@
                     "key_code": "a",
                     "modifiers": {
                         "mandatory": [
-                            "right_control",  "left_control"
+                            "right_control",  "right_command"
                         ],
                         "optional": [
                             "any"
@@ -495,7 +495,7 @@
                     "key_code": "s",
                     "modifiers": {
                         "mandatory": [
-                            "right_control",  "left_control"
+                            "right_control",  "right_command"
                         ],
                         "optional": [
                             "any"
@@ -513,7 +513,7 @@
                     "key_code": "d",
                     "modifiers": {
                         "mandatory": [
-                            "right_control",  "left_control"
+                            "right_control",  "right_command"
                         ],
                         "optional": [
                             "any"
@@ -533,6 +533,10 @@
                 "to": [{
                     "key_code": "return_or_enter"
                 }],
+                "to_if_held_down": [{
+                    "key_code": "right_command"
+                }],
+
                 "type": "basic"
             }
         ]
