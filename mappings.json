@@ -460,9 +460,6 @@
                     "modifiers": {
                         "mandatory": [
                             "return_or_enter"
-                        ],
-                        "optional": [
-                            "any"
                         ]
                     }
                 },
@@ -478,9 +475,6 @@
                     "modifiers": {
                         "mandatory": [
                             "return_or_enter"
-                        ],
-                        "optional": [
-                            "any"
                         ]
                     }
                 },
@@ -496,9 +490,6 @@
                     "modifiers": {
                         "mandatory": [
                             "return_or_enter"
-                        ],
-                        "optional": [
-                            "any"
                         ]
                     }
                 },
@@ -514,9 +505,6 @@
                     "modifiers": {
                         "mandatory": [
                             "return_or_enter"
-                        ],
-                        "optional": [
-                            "any"
                         ]
                     }
                 },
