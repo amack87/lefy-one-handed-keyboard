@@ -547,7 +547,7 @@
 
             {
                 "from": {
-                    "key_code": "l",
+                    "key_code": "d",
                     "modifiers": {
                         "mandatory": [
                             "fn"
