@@ -477,11 +477,15 @@
 
             {
                 "from": {
-                    "simultaneous": [
-                        {"key_code": "w"},
-                        {"key_code": "right_option"}
-                    ],
-                    "modifiers": {"optional": ["any"]}
+                    "key_code": "1",
+                    "modifiers": {
+                        "mandatory": [
+                            "right_control"
+                        ],
+                        "optional": [
+                            "any"
+                        ]
+                    }
                 },
                 "to": [{"key_code": "up_arrow"}],
                 "type": "basic"
@@ -489,11 +493,15 @@
 
             {
                 "from": {
-                    "simultaneous": [
-                        {"key_code": "a"},
-                        {"key_code": "right_option"}
-                    ],
-                    "modifiers": {"optional": ["any"]}
+                    "key_code": "2",
+                    "modifiers": {
+                        "mandatory": [
+                            "right_control"
+                        ],
+                        "optional": [
+                            "any"
+                        ]
+                    }
                 },
                 "to": [{"key_code": "left_arrow"}],
                 "type": "basic"
@@ -501,25 +509,33 @@
 
             {
                 "from": {
-                    "simultaneous": [
-                        {"key_code": "s"},
-                        {"key_code": "right_option"}
-                    ],
-                    "modifiers": {"optional": ["any"]}
+                    "key_code": "3",
+                    "modifiers": {
+                        "mandatory": [
+                            "right_control"
+                        ],
+                        "optional": [
+                            "any"
+                        ]
+                    }
                 },
-                "to": [{"key_code": "down_arrow"}],
+                "to": [{"key_code": "right_arrow"}],
                 "type": "basic"
             },
 
             {
                 "from": {
-                    "simultaneous": [
-                        {"key_code": "d"},
-                        {"key_code": "right_option"}
-                    ],
-                    "modifiers": {"optional": ["any"]}
+                    "key_code": "4",
+                    "modifiers": {
+                        "mandatory": [
+                            "right_control"
+                        ],
+                        "optional": [
+                            "any"
+                        ]
+                    }
                 },
-                "to": [{"key_code": "right_arrow"}],
+                "to": [{"key_code": "down_arrow"}],
                 "type": "basic"
             }
         ]
