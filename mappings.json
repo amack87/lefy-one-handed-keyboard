@@ -34,7 +34,7 @@
                 "to": [{
                     "key_code": "right_option"
                 }],
-                "to_if_held": [{
+                "to_if_held_down": [{
                     "key_code": "right_option"
                 }],
                 "to_if_alone": [{
@@ -42,6 +42,28 @@
                 }],
                 "type": "basic"
             },
+
+            {
+                "from": {
+                    "key_code": "tab",
+                    "modifiers": {
+                        "optional": [
+                            "any"
+                        ]
+                    }
+                },
+                "to": [{
+                    "key_code": "right_command"
+                }],
+                "to_if_held_down": [{
+                    "key_code": "right_command"
+                }],
+                "to_if_alone": [{
+                    "key_code": "tab"
+                }],
+                "type": "basic"
+            },
+
 
             {
                 "from": {
@@ -477,10 +499,10 @@
 
             {
                 "from": {
-                    "key_code": "f1",
+                    "key_code": "i",
                     "modifiers": {
                         "mandatory": [
-                            "right_control"
+                            "right_option"
                         ],
                         "optional": [
                             "any"
@@ -493,10 +515,10 @@
 
             {
                 "from": {
-                    "key_code": "f2",
+                    "key_code": "j",
                     "modifiers": {
                         "mandatory": [
-                            "right_control"
+                            "right_option"
                         ],
                         "optional": [
                             "any"
@@ -509,10 +531,10 @@
 
             {
                 "from": {
-                    "key_code": "f3",
+                    "key_code": "k",
                     "modifiers": {
                         "mandatory": [
-                            "right_control"
+                            "right_option"
                         ],
                         "optional": [
                             "any"
@@ -525,10 +547,10 @@
 
             {
                 "from": {
-                    "key_code": "f4",
+                    "key_code": "l",
                     "modifiers": {
                         "mandatory": [
-                            "right_control"
+                            "right_option"
                         ],
                         "optional": [
                             "any"
