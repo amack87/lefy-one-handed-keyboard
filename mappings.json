@@ -34,9 +34,6 @@
                 "to": [{
                     "key_code": "right_option"
                 }],
-                "to_if_held_down": [{
-                    "key_code": "right_option"
-                }],
                 "to_if_alone": [{
                     "key_code": "return_or_enter"
                 }],
@@ -53,9 +50,6 @@
                     }
                 },
                 "to": [{
-                    "key_code": "right_command"
-                }],
-                "to_if_held_down": [{
                     "key_code": "right_command"
                 }],
                 "to_if_alone": [{
@@ -499,7 +493,10 @@
 
             {
                 "from": {
-                    "key_code": "w",
+                    "simultaneous": [
+                        {"key_code": "w"},
+                        {"key_code": "s"}
+                    ],
                     "modifiers": {
                         "mandatory": [
                             "fn"
@@ -515,7 +512,10 @@
 
             {
                 "from": {
-                    "key_code": "a",
+                    "simultaneous": [
+                        {"key_code": "a"},
+                        {"key_code": "s"}
+                    ],
                     "modifiers": {
                         "mandatory": [
                             "fn"
@@ -531,7 +531,10 @@
 
             {
                 "from": {
-                    "key_code": "s",
+                    "simultaneous": [
+                        {"key_code": "x"},
+                        {"key_code": "s"}
+                    ],
                     "modifiers": {
                         "mandatory": [
                             "fn"
@@ -547,7 +550,10 @@
 
             {
                 "from": {
-                    "key_code": "d",
+                    "simultaneous": [
+                        {"key_code": "d"},
+                        {"key_code": "s"}
+                    ],
                     "modifiers": {
                         "mandatory": [
                             "fn"
